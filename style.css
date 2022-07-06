@@ -1,0 +1,74 @@
+body{
+    font-family: 'Arima', cursive;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.orange{
+    color: orange;
+}
+
+.flexible-container{
+
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.contact_me{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato );
+    padding: 10px 30px;
+    color: white;
+    font-weight: 700px;
+    border-radius: 5px;
+}
+.top-banner{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+}
+.second_class{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 10px;
+}
+.experience{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px gray;
+   
+}
+#Lab_instructor{
+    border-left: 8px solid tomato;
+}
+#Research_Assistant{
+    border-left: 8px solid blue;
+}
+
+footer p {
+    text-align:center;
+}
+
+.db{
+    
+    padding-right: 35px;
+}
